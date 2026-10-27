@@ -24,7 +24,7 @@ const NewestPosts = ({ posts }: Props) => {
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8  mx-auto w-[90%] md:p-4">
 
             <div className="md:col-span-3 col-span-1 mt-10 flex justify-between items-center">
-                <h2 className="text-3xl font-semibold">Newest Posts</h2>
+                <h1>Newest Posts</h1>
 
                 <a className="underline" href="/blog">Visit blog</a>
             </div>

@@ -10,11 +10,11 @@ const Aboutme = () => {
                             imageUrl="./assets/gallery/profilbilde.jpg"
                             title="Welcome!"
                             undertitle=""
-                            location={"📍 Trondheim, Norway"}
-                            education={"🎓 Computer Science, NTNU"}
+                            location={"📍 Oslo, Norway"}
+                            education={"🎓 Computer Science, NTNU + UIO"}
                             hobbies={"💻 Fullstack Developer"}
-                            text={`My name is Elias Trana, and I am a student at NTNU Trondheim, studying Computer Engineering.
-                    This is my personal website where I will be posting my projects, both personal and school related.
+                            text={`My name is Elias Trana.
+                   This is my personal website where I will be posting my projects, both personal and school related.
                     
                     This website contains all my work, easily sorted by categories. I hope you find something interesting here!`}
                             calltoaction="Take a look!"

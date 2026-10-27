@@ -17,6 +17,45 @@ const ProjectGrid: React.FC = () => {
             ],
             icon: '/assets/gallery/sneii_showcase/sneii.jpg',
         },
+
+        {
+            title: 'EkteTid',
+            year: '2024',
+            images: ['/assets/blog/ektetid-logo.png'],
+            description:
+                'EkteTid is an app that allows you to share your memories and experiences with your friends.',
+            link: 'https://ektetid.no',
+            visit: 'https://ektetid.no',
+            logo: [
+
+
+                '/languageIcons/supabase-logo-icon.avif',
+                '/languageIcons/react-native.webp',
+                '/languageIcons/typescript.png',
+                '/languageIcons/tailwind.png',
+
+            ],
+            icon: '/assets/blog/ektetid/ektetid-logo.png',
+        },
+
+        {
+            title: 'Svelta',
+            year: '2025',
+            images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
+            description:
+                'Svelta is a social media for cooking and baking, allowing users to share recipies, follow other cooks, and find inspiration for their next meal.',
+            link: 'https://svelta.no',
+            visit: 'https://svelta.no',
+            logo: [
+                '/languageIcons/vercel.svg',
+                '/languageIcons/next-js.svg',
+                '/languageIcons/firebase.svg',
+                '/languageIcons/typescript.png',
+                '/languageIcons/tailwind.png',
+            ],
+            icon: '/assets/blog/svelta/svelta-logo.png',
+        },
+
         {
             title: 'ChatSSB',
             year: '2025',
@@ -33,6 +72,7 @@ const ProjectGrid: React.FC = () => {
             ],
             icon: '/assets/gallery/chatssb_showcase/chatssbpp.png',
         },
+
         // {
         //     title: 'Eggen Arkitekter',
         //     year: '2024',
@@ -50,30 +90,13 @@ const ProjectGrid: React.FC = () => {
         //     ],
         //     icon: '/assets/gallery/eggen_showcase/eggen_logo.png',
         // },
-        // {
-        //     title: 'EkteTid',
-        //     year: '2024',
-        //     images: ['/assets/gallery/ektetid_showcase/ektetid_showcase.jpg'],
-        //     description:
-        //         'EkteTid is a web application created as a tool for sharing vacation photos with loved ones during the trip itself. It features a firebase alert system, allowing for mobile notifications through a webapp.',
-        //     link: '/ektetid',
-        //     visit: 'https://ektetid.no',
-        //     logo: [
-        //         '/languageIcons/Sanity-square.png',
-        //         '/languageIcons/vercel.svg',
-        //         '/languageIcons/next-js.svg',
-        //         '/languageIcons/typescript.png',
-        //         '/languageIcons/tailwind.png',
-        //         '/languageIcons/firebase.svg',
-        //     ],
-        //     icon: '/assets/gallery/ektetid_showcase/ektetid_logo_200.png',
-        // },
+
         {
             title: 'Meløya.no',
             year: '2024',
             images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
             description:
-                'Meløya.no is a website for the local community on Meløya, an island in the north of norway with 100 inhabitants. The website has attracket 25 000 views from 8500 visitors in 6 months.',
+                'Meløya.no is a website for the local community on Meløya, an island in the north of norway with 100 inhabitants. The website has attracted 60 000 views from 15 000 visitors since it launched in 2025.',
             link: '/meloyadotno',
             visit: 'https://meloya.no',
             logo: [
@@ -92,7 +115,7 @@ const ProjectGrid: React.FC = () => {
             year: '2025',
             images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
             description:
-                'Prosjekt Argus is my masters thesis project, focused on democratizing access to emergency weather data using modern web technologies and open data sources.',
+                'Prosjekt Argus is my masters thesis project, focused on finetuning BRIS to improve its performance on extreme weather events.',
             link: 'https://argus.eliastrana.no/',
             visit: 'https://argus.eliastrana.no/',
             logo: [
@@ -101,44 +124,44 @@ const ProjectGrid: React.FC = () => {
             icon: '/assets/gallery/argus_showcase/earth-png.gif',
         },
 
+        // {
+        //     title: 'Meløya App',
+        //     year: '2025',
+        //     images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
+        //     description:
+        //         'Meløya App is a mobile app based on the meløya.no website, built with React Native. The app provides easy access to local news, events, and services for the Meløya community.',
+        //     link: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
+        //     visit: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
+        //     logo: [
+        //         '/languageIcons/Sanity-square.png',
+        //         '/languageIcons/next-js.svg',
+        //         '/languageIcons/firebase.svg',
+        //         '/languageIcons/typescript.png',
+        //     ],
+        //     icon: '/assets/gallery/meloyadotno_showcase/meloyaapp.jpg',
+        // },
 
-        {
-            title: 'Meløya App',
-            year: '2025',
-            images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
-            description:
-                'Meløya App is a mobile app based on the meløya.no website, built with React Native. The app provides easy access to local news, events, and services for the Meløya community.',
-            link: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
-            visit: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
-            logo: [
-                '/languageIcons/Sanity-square.png',
-                '/languageIcons/next-js.svg',
-                '/languageIcons/firebase.svg',
-                '/languageIcons/typescript.png',
-            ],
-            icon: '/assets/gallery/meloyadotno_showcase/meloyaapp.jpg',
-        },
-        {
-            title: 'Svelta',
-            year: '2025',
-            images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
-            description:
-                'Svelta is a social media for cooking and baking, allowing users to share recipies, follow other cooks, and find inspiration for their next meal.',
-            link: 'https://svelta.no',
-            visit: 'https://svelta.no',
-            logo: [
-                '/languageIcons/vercel.svg',
-                '/languageIcons/next-js.svg',
-                '/languageIcons/firebase.svg',
-                '/languageIcons/typescript.png',
-                '/languageIcons/tailwind.png',
-            ],
-            icon: '/assets/gallery/svelta_showcase/bread.jpg',
-        },
+
+        // {
+        //     title: 'Meløya App',
+        //     year: '2025',
+        //     images: ['/assets/gallery/meloyadotno_showcase/macbook_meloyadotno.jpg'],
+        //     description:
+        //         'Meløya App is a mobile app based on the meløya.no website, built with React Native. The app provides easy access to local news, events, and services for the Meløya community.',
+        //     link: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
+        //     visit: 'https://apps.apple.com/no/app/mel%C3%B8ya-app/id6756573425?l=nb',
+        //     logo: [
+        //         '/languageIcons/Sanity-square.png',
+        //         '/languageIcons/next-js.svg',
+        //         '/languageIcons/firebase.svg',
+        //         '/languageIcons/typescript.png',
+        //     ],
+        //     icon: '/assets/gallery/meloyadotno_showcase/meloyaapp.jpg',
+        // },
     ];
 
     return (
-        <section className="w-full md:p-20 p-4">
+        <section className="w-full md:p-20 p-4 mt-10">
             <h1>Current Work</h1>
             <h3 className=" mb-4">My current projects, being actively maintained</h3>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">

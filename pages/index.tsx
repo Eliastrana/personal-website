@@ -18,9 +18,9 @@ const NewPage: React.FC<Props> = ({ allPosts }) => {
         <div>
             <Layout>
                 <PhysicsFrontpage />
+                <NewestPostDisplayer allPosts={allPosts} />
                 <ProjectCarousel />
                 <Aboutme />
-                <NewestPostDisplayer allPosts={allPosts} />
             </Layout>
         </div>
     );

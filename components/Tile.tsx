@@ -36,7 +36,7 @@ const Tile: React.FC<TileProps> = ({
             href={link}
             className={[
                 'block h-full rounded-2xl overflow-hidden',
-                'bg-neutral-200 dark:bg-[#272727]',
+                ' border-2',
                 'text-neutral-900 dark:text-neutral-100',
             ].join(' ')}
             aria-label={`Open ${title}`}

@@ -17,7 +17,7 @@ const WideBox: React.FC<ContentBoxProps> = ({ title, undertitle, text, location,
     return (
         <div className="w-full   flex flex-col md:flex-row items-center md:items-start ">
             <div className="flex-1 space-y-4 p-4">
-                <h2 className={styles.boxInfoFontH1}>{title}</h2>
+                <h1>{title}</h1>
 
                 <h3 className={styles.boxInfoFontH2}>{undertitle}</h3>
 
